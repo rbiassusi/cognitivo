@@ -1,0 +1,1 @@
+from .componentresource import *
