@@ -7,8 +7,8 @@ import csv
 
 class Command(BaseCommand):
     def handle(self, **options):
-        #importComponent()
-        #importBillOfMaterials()
+        importComponent()
+        importBillOfMaterials()
         importPriceQuote()
 
 def importComponent():
